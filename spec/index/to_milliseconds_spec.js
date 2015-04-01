@@ -1,6 +1,7 @@
 var benx = require('../../index');
 
-describe('toMilliseconds', function() {
+describe('#toMilliseconds', function() {
+
   describe('when it does not receive arguments', function() {
     it('throws exception', function() {
       expect(benx.toMilliseconds).toThrow(new Error('Arguments should be passed'));
