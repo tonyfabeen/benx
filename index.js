@@ -1,5 +1,5 @@
 exports.toMilliseconds = function(seconds, nanoseconds) {
-  if (!seconds || !nanoseconds) throw new Error('Arguments should be passed');
+  if (seconds === undefined || nanoseconds === undefined) throw new Error('Arguments should be passed');
 
   var milliseconds = (seconds * 1000) + (nanoseconds / 1000000);
 
