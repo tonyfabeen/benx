@@ -1,0 +1,25 @@
+{
+  "name": "benx",
+  "version": "0.0.1",
+  "description": "Benchmark your Javascript functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonyfabeen/benx.git"
+  },
+  "keywords": [
+    "benchmark"
+  ],
+  "author": "Tony Fabeen",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/tonyfabeen/benx/issues"
+  },
+  "homepage": "https://github.com/tonyfabeen/benx",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
